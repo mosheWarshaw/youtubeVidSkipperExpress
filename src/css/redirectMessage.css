@@ -1,0 +1,9 @@
+article{
+    margin-top: 30vh;
+    width: 100vw;
+}
+
+#redirectMessage{
+    display: flex;
+    justify-content: center;
+}

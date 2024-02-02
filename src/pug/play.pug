@@ -1,0 +1,21 @@
+extends main.pug
+
+block scripts     
+    script(src="https://www.youtube.com/iframe_api", defer)
+    script(src="/js/scriptsInPages/play/main.mjs", type="module", defer)
+    
+block customStylesheets
+    link(href="/css/responses/get/play.css", rel="stylesheet")
+
+block theArticle
+    article
+        div(id="instructions")
+            | Use ctrl+f to find the title of the video
+            | you want played, click on the button to play it.
+            | Reload the page before clicking on a second and
+            | all other subsequent button clicks.
+
+        div#outerIframeDiv
+            div(id="iframeDiv")
+
+        div#buttons !{buttons}

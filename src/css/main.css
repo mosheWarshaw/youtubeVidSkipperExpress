@@ -1,0 +1,17 @@
+body{
+    /*The menu will not be posiitoned right without this.
+    For example, in the home page the article has a margin-top
+    of 30vw, and the menu would be right on top of it with 30vw
+    above it instead of 30vw in between the menu and article.*/
+    display: flex;
+
+    margin: 0;
+}
+
+#menu{
+    width: 100vw;
+
+    /*So the slideshow isn't abovve the menu when the menu drops.*/
+    position: fixed;
+    z-index: 21;
+}

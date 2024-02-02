@@ -1,0 +1,28 @@
+extends main.pug
+
+block scripts
+    script(src="/js/scriptsInPages/account.mjs", type="module", defer)
+
+block customStylesheets
+    link(href="/css/responses/get/account.css", rel="stylesheet")
+
+block theArticle
+    article
+        form
+            div#loggingIn
+                input(type="radio", name="credentialsType", value="loggingIn", required)
+                <span>Logging In</span>
+            div#creatingAccount
+                input(type="radio", name="credentialsType", value="creatingAccount", required)
+                <span>Creating An Account</span>
+
+            div#username
+                input(type="text", name="username", placeholder="Username", required)
+            div#password
+                input(type="text", name="password", placeholder="Password", required) 
+
+        //If this was in the form then it would cause the fetch
+            to post properly, but then reedirect to the current page
+            with the form data as qury parameters.
+        div#submitButtonDiv
+            button(id="submitButton") Submit

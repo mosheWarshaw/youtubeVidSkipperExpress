@@ -1,0 +1,30 @@
+doctype html
+html
+    head
+        //The jquery is only here for the slimmenu.
+        script(src="/js/libraries/jquery-3.6.3.min.js", defer)
+        script(src="/js/libraries/adnantopal-slimmenu-v1.0-0-gc264256/adnantopal-slimmenu-c264256/dist/js/jquery.slimmenu.min.js", defer)
+        link(href="/js/libraries/adnantopal-slimmenu-v1.0-0-gc264256/adnantopal-slimmenu-c264256/dist/css/slimmenu.min.css", rel="stylesheet")
+        script(src="/js/general/slimmenu.mjs", defer)
+
+        block scripts
+
+        link(href="/css/main.css", rel="stylesheet")
+
+        block customStylesheets
+    body
+
+        div(id="menu")
+            ul(id="navigation" class="slimmenu")
+                li
+                    a(href="/home", id="home") Home
+                li
+                    a(href="/account", id="account") Account
+                li
+                    a(href="/play", id="play") Play A Video
+                li
+                    a(href="/add", id="add") Add A Video
+                li
+                    a(href="/contact", id="contact") Contact Me
+
+        block theArticle

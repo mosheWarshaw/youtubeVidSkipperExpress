@@ -1,0 +1,28 @@
+article{
+    margin-top: 30vh;
+    width: 100vw;
+}
+
+#titleAndVideoIdInstructions,
+#secondsInstructions1,
+#secondsInstructions2,
+#titleAndVideoId,
+.secondsInput,
+#addPartDiv,
+#submitButtonDiv,
+#responseText{
+    display: flex;
+    justify-content: center;
+}
+
+#titleAndVideoId input:nth-child(1), .startInput{
+    margin-right: 5px;
+}
+
+.startInput, .endInput{
+    margin-bottom: 5px;
+}
+
+#addPartDiv{
+    margin-bottom: 10px;
+}

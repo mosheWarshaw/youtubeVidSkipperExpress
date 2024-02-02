@@ -1,0 +1,19 @@
+article{
+    margin-top: 30vh;
+    width: 100vw;
+}
+
+form, #submitButtonDiv{
+    display: flex;
+    justify-content: center;
+}
+
+#submitButtonDiv{
+    margin-bottom: 5px;
+}
+
+
+#formSubmissionResponse, #redirectMessage{
+    display: flex;
+    justify-content: center;
+}

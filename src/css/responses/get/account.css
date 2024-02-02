@@ -1,0 +1,33 @@
+article{
+    margin-top: 30vh;
+    width: 100vw;
+}
+
+#creatingAccount, #username, #password, #submitButtonDiv{
+    margin-bottom: 5px;
+}
+
+/*If I would make the form flex and center
+instead of making each one flex and center
+then all the items wold be placed on the
+same line (it's just what happens when using
+flex. it ignores <br/> tags and even ignores
+if you would declare these items as having a block display).*/
+#loggingIn, #creatingAccount, #username, #password, #submitButtonDiv{
+    display: flex;
+    justify-content: center;
+}
+
+#formSubmissionResponse{
+    display: flex;
+    justify-content: center;
+}
+
+/*What I did before using flex:
+form{
+    display: inline-block;
+    width: 20vw;
+    margin-right: 40vw;
+    margin-left: 40vw;
+}
+*/

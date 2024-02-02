@@ -1,0 +1,21 @@
+article{
+    margin-top: 30vh;
+}
+
+#about{
+    margin-right: 30vw;
+    margin-left: 30vw;
+    width: 40vw;
+}
+
+#slideshow{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    list-style: none;
+}
+
+#img1, #img2, #img3{
+    height: 150px;
+    width: 300px;
+}

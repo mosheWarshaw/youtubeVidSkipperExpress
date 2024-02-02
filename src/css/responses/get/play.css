@@ -1,0 +1,25 @@
+article{
+    margin-top: 30vh;
+    width: 100vw;
+}
+
+#instructions{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#outerIframeDiv{
+    display: flex;
+    justify-content: center;
+}
+
+#buttons{
+    margin-top: 20px;
+}
+
+.buttonDiv{
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: center;
+}

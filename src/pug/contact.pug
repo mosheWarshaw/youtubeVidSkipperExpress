@@ -1,0 +1,14 @@
+extends main.pug
+
+block scripts
+    script(src="/js/scriptsInPages/contact.mjs", type="module", defer)
+    
+block customStylesheets
+    link(href="/css/responses/get/contact.css", rel="stylesheet")
+
+block theArticle
+    article
+        div#submitButtonDiv
+            button(id="submitButton") Submit the below message
+        form
+            textarea(name="emailBody", rows="15", cols="60")
