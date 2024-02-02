@@ -1,0 +1,1 @@
+A website to play YouTube videos (using the YouTube Player API), and to store (using a MySQL database) the user’s input for sections of these videos to skip (personal use: a bad part that ruins an otherwise good song), using Express for the back end.
